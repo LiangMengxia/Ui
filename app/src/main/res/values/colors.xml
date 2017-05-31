@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33dc3a</color>
+    <color name="colorPrimaryDark">#c4f0b8</color>
+    <color name="colorAccent">#d15bf235</color>
+    <color name="green1">#64c7ecc3</color>
+    <color name="green2">#5579d76e</color>
+    <color name="green3">#644fca55</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#0ede46</color>
+    <color name="statusBarColor">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="holo_primary_dark">#000000</color>
+    <color name="gray">#95907F</color>
+    <color name="deepgray">#454431</color>
+    <color name="qiangreen">#B9FF99</color>
+</resources>

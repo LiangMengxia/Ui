@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.ui.activity.activity.AblumActivity">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout1"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <com.example.lenovo.ui.button.BackImgTextBtn
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backBtn"
+        android:background="@color/holo_primary_dark"
+        android:layout_marginEnd="180dp">
+    </com.example.lenovo.ui.button.BackImgTextBtn>
+
+    <com.example.lenovo.ui.button.SaveImgTextBtn
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveBtn"
+        android:background="@color/holo_primary_dark">
+    </com.example.lenovo.ui.button.SaveImgTextBtn>
+</LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_above="@+id/horizontalScrollView" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+            <com.example.lenovo.ui.button.ImgTextButton
+                android:id="@+id/details"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+            <com.example.lenovo.ui.button.ImgTextButton
+                android:id="@+id/jianqie"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <com.example.lenovo.ui.button.ImgTextButton
+                android:id="@+id/jiaozheng"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <com.example.lenovo.ui.button.ImgTextButton
+                android:id="@+id/border"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <com.example.lenovo.ui.button.ImgTextButton
+                android:id="@+id/zhongzhou"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <com.example.lenovo.ui.button.ImgTextButton
+                android:id="@+id/canshu"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
